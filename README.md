@@ -9,7 +9,7 @@ Instale o composer - baixe no site https://getcomposer.org/Composer-Setup.exe
 
 Você precisa estar na raiz do c:\ 
 
-CD\ "<enter>"
+CD\ 
 git clone https://github.com/paulo2782/emanuel.git
 
 Depois de instalado vá no CMD - (PROMPT DE COMANDO) Digite: composer install
@@ -24,8 +24,13 @@ php artisan migrate
 Crie a chave para o sistema
 php artisan key:generate
 
+DEPOIS DE CRIAR A CHAVE ME CHAMA NO WHATSAPP QUE TE PASSO O ARQUIVO .env PARA ACESSAR O BANCO DE DADOS
+
 Rode o servidor
 php artisan serve
 
 Acesse o navegador pelo link que aparece no terminal
 ex.: http://localhost:8000
+
+
+
