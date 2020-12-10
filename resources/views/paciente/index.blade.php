@@ -1,4 +1,3 @@
-<center><H6> VERSÃO TESTE - DESENVOLVIDO POR: PAULO SOARES DE OLIVEIRA - WHATSAPP 51-982974728 </H6></center>
 
 @if(!Auth::check())
 	@include('layouts/app')
