@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-<center><H6> VERSÃO TESTE - DESENVOLVIDO POR: PAULO SOARES DE OLIVEIRA - WHATSAPP 51-982974728 </H6></center>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -61,6 +59,4 @@
         </div>
     </div>
 </div>
-<center><H6> VERSÃO TESTE - DESENVOLVIDO POR: PAULO SOARES DE OLIVEIRA - WHATSAPP 51-982974728 </H6></center>
-
 @endsection
