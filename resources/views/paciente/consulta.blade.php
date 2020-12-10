@@ -15,7 +15,7 @@
 			<th>IDADE</th>
 			<th>PESO</th>
 			<th>ALTURA</th>
-
+			<th>IMC</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -25,6 +25,8 @@
 			<td>{{ $dado->idade }}</td>
 			<td>{{ $dado->peso }}</td>
 			<td>{{ $dado->altura }}</td>
+			@php $altura = $dado->altura * $dado->altura;  $imc = $dado->peso / $altura @endphp
+			<td>{{ number_format($imc,2,',',' ') }} </td>
 		</tr>
 		@endforeach
 	</tbody>
