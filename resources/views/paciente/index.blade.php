@@ -11,8 +11,6 @@
 <form name="cadastro" method="POST" action="{{ route('salvaCadastro') }}">
 	@csrf
 <div class="card-body">
-	<center><H6> VERSÃO TESTE - DESENVOLVIDO POR: PAULO SOARES DE OLIVEIRA - WHATSAPP 51-982974728 </H6></center>
-
 	<span id="mensagem">{{ session('mensagem') }}</span>
 	<div class="row">
 		<div class="col-lg-12">
