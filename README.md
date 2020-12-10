@@ -9,7 +9,7 @@ Instale o composer - baixe no site https://getcomposer.org/Composer-Setup.exe
 
 Você precisa estar na raiz do c:\ 
 
-CD\ <enter>
+CD\ "<enter>"
 git clone https://github.com/paulo2782/emanuel.git
 
 Depois de instalado vá no CMD - (PROMPT DE COMANDO) Digite: composer install
